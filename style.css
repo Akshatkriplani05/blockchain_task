@@ -1,0 +1,355 @@
+.nav{
+    position: sticky;
+    padding: 3%;
+    margin: 0%;
+    color:gold;
+    font-display:initial;
+    background-color: rgba(3, 5, 7, 0.89);
+}
+.logo{
+    
+
+    margin-left: 0%;
+    border: 5px;
+    border-radius: 10%;
+    
+}
+.top{
+    background-color: rgba(3, 5, 7, 0.89);
+    padding-top: 2px;
+    color: #e7e7e0;
+    display: flex;
+    justify-content:space-between;
+    position: static;
+    margin: 0px;
+    border: 3px solid wheat;
+    padding: 5px;
+}
+
+#x{
+ background-color: rgb(69, 74, 78);
+ margin-right: 1%;
+ margin-left: 0%;
+ padding: 10px;
+ height: 30px;
+ padding-right: 400px;
+ padding-top:10px ;
+ color:rgba(246, 211, 9, 0.81);
+ border-radius: 5px;
+ border-width: 2px;
+}
+.abc
+{
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+    margin-left: 0px;
+    height: 40px;
+    margin-bottom: 3px;
+    margin-top: 0%;
+}
+body
+{
+    margin: 0px;
+    padding:0px;
+    background-color: rgba(245, 245, 242, 0.996);
+    width: 1472px;
+}
+#x:hover
+{
+    background-color: rgba(204, 179, 105, 0.166);
+    color:gainsboro;
+}
+#y
+{
+    margin: 0.3%;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:rgb(69, 74, 78) ;
+    width: fit-content;
+    padding: 0.6%;
+    box-shadow: 5%;
+}
+
+#z
+{
+    margin: 0.3%;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:rgb(69, 74, 78) ;
+    width: fit-content;
+    padding: 0.6%;
+}
+
+#a
+{
+    margin: 0.3%;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:rgb(69, 74, 78) ;
+    width: fit-content;
+    padding: 0.6%;
+}
+
+.upper
+{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8%;
+    margin-right: 9%;
+    
+}
+
+
+.up
+{
+    font-style: italic;
+    color: rgba(242, 196, 12, 0.707);
+    font-size: 40px;
+    font-weight: 800;
+    border: 2px;
+    border-color: #28241D;
+}
+
+.footer{
+    margin: 0px;
+    position:sticky;
+    padding-top: 1%;
+    color:rgba(221, 218, 201, 0.649);
+    font-display:initial;
+    background-color: rgba(3, 5, 7, 0.89);
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    font-size: x-small;
+}
+html{
+    width: fit-content;
+}
+
+#y:hover{
+    
+    background-color: #28241D;
+    padding: 15px;
+    img{
+        opacity: 0.7;
+    border-radius: 10%;    
+    }
+    
+    
+}
+#z:hover{
+    
+    background-color: #df9006;
+    padding: 15px;
+    img{
+     opacity: 0.7;
+     border-radius: 10%;   
+    }
+}
+#a:hover{
+    
+    background-color: #f1120288;
+    padding: 15px;
+    img{
+        opacity: 0.7;
+        border-radius: 10%;   
+    }
+}
+
+.logo:hover{
+
+    img{border: 3px solid gold;
+    border-radius: 20%;}
+    padding: 2px;
+}
+#f{
+    background-color:rgba(3, 5, 7, 0.89);
+    color: gold;
+    font-weight: bold;
+}
+
+#g{
+    background-color: rgba(3, 5, 7, 0.89);
+    color: gold;
+    font-weight: bold;
+}
+
+#h{
+    background-color: #28241D;
+    color: gold;
+    font-weight: bold;
+}
+
+#i{
+    background-color: #28241D;
+    color: gold;
+    font-weight: bold;
+}
+#f:hover{
+    text-decoration: underline ghostwhite;
+    text-transform: uppercase;
+}
+#f:active .p{
+    font-size: larger;
+    
+}
+
+#g:hover{
+    text-decoration: underline ghostwhite;
+    text-transform: uppercase;
+    
+}
+
+#h:hover{
+    text-decoration: underline ghostwhite;
+    text-transform: uppercase;
+}
+
+#i:hover{
+    text-decoration: underline ghostwhite;
+    text-transform: uppercase;
+}
+
+#m{
+  color: #da1608c8;
+  margin-top: 5%;
+  font-size: larger;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 600;
+  width: 1300px;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+
+#h li{
+    display: none;
+    background-color:rgba(231, 193, 40, 0.937);
+    color: #e7e7e0;
+    position: relative;
+    font-size: medium;
+    font-weight: 300;
+}
+
+#h:active  li{
+ display: block;
+ position: absolute;
+ margin-top: 0.5%;
+ margin-right: 3%;
+ padding-right: 3%;
+}
+
+
+.drop li ul:hover{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#i li{
+    display: none;
+    background-color:rgba(231, 193, 40, 0.937);
+    color: #e7e7e0;
+    position: relative;
+    font-size: medium;
+    font-weight: 300;
+}
+
+#i:active  li{
+    display: block;
+    position: absolute;
+    margin-top: 0.5%;
+    margin-right: 3%;
+    padding-right: 3%;
+}
+
+.drops li ul:hover{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: large;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.j{
+    margin-left: 40%;
+    margin-right: 39%;
+    border: 4px solid goldenrod;
+    
+}
+.p{
+    font-size: 15px;
+    color: #28241D;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.q{
+    font-size: 50px;
+    color:goldenrod;
+    margin-top: 0%;
+}
+
+#e{
+    color: #0d0c0dca;
+  
+  font-size: 35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  font-weight: 600;
+  width: 1300px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+#p:hover{
+    text-decoration:underline ;
+}
+#q:hover{
+    text-decoration:underline ;
+}
+#r:hover{
+    text-decoration:underline ;
+}
+#s:active{
+    text-decoration:underline ;
+}
+
+#s:hover .form{
+    display: block;
+
+}
+
+.form{
+    display: none;
+    background-color: goldenrod;
+    color: #28241D;
+    font-style: italic;
+    font-size: medium;
+    font-weight: 700;
+}
+
+#cc{
+    font-size: large;
+    color: #e7e7e0;
+}
+
+#oo{
+    display: none;
+}
+
+#r:hover .oo{
+    display: block;
+}
+
+#walletAddrText{
+    display: none;
+}
+
+#cc:hover .pp{
+ display: block;
+}

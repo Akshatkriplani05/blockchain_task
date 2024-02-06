@@ -1,0 +1,113 @@
+.a{
+    margin-top: 2%;
+    padding-left: 37%;
+    color:rgb(31, 14, 14);
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 5%;
+    margin-left: 3%;
+}
+.e{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.b{
+    border:2px solid red;
+    padding:15px;
+}
+
+.c{
+    border:2px solid red;
+    padding:15px;
+}
+
+.d{
+    border:2px solid red;
+    padding:15px;
+}
+
+.f{
+    color: red;
+    font-size:20px;
+}
+
+#p{
+    border-radius: 30%;
+    color: red;
+    font-weight: 900;
+    background-color: beige;
+    height: 40px;
+    width: 30px;
+}
+#p:hover{
+    background-color: gainsboro;
+}
+
+#q{
+    border-radius: 30%;
+    color: red;
+    font-weight: 900;
+    background-color: beige;
+    width: 30px;
+    height: 40px;
+}
+#q:hover{
+    background-color: gainsboro;
+}
+
+#r{
+    border-radius: 30%;
+    color: red;
+    font-weight: 900;
+    background-color: beige;
+    width: 30px;
+    height: 40px;
+}
+#r:hover{
+    background-color: gainsboro;
+}
+
+#s{
+    border-radius: 30%;
+    color: red;
+    font-weight: 900;
+    background-color: beige;
+    width: 30px;
+    height: 40px;
+    
+}
+#s:hover{
+    background-color: gainsboro;
+}
+
+#t{
+    border-radius: 30%;
+    color: red;
+    font-weight: 900;
+    background-color: beige;
+    width: 30px;
+    height: 40px;
+}
+#t:hover{
+    background-color: gainsboro;
+}
+
+#u{
+    border-radius: 30%;
+    color: red;
+    font-weight: 900;
+    background-color: beige;
+    width: 30px;
+    height: 40px;
+}
+#u:hover{
+    background-color: gainsboro;
+}
+
+.bb{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2px;
+}

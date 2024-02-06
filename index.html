@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attrify</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      async function walletconnect(){
+        console.log("here");
+        if(typeof window.ethereum !== "undefined"){
+        const add=  await ethereum.request({method:' eth_requestAccounts'});
+          console.log("installed");
+          document.getElementById("walletAddrText").innerHTML= add;
+        }
+        else{
+
+          console.log("not installed");
+        }
+      }
+
+      async function walletbalance(){
+      console.log("here is your balance," , document.getElementById("walletAddrText").innerHTML);  
+      add = document.getElementById("walletAddrText").innerHTML;
+      let walletBalance=await window.ethereum.request({
+        method:'eth_getBalance',
+        params:[
+          walletAddr,
+          'latest']
+
+        
+      }).catch(err); 
+      { 
+        console.log("balance in hex", walletBalance)
+      }
+      }
+   
+    </script>
+    
+</head>
+<body>
+
+    <div class="top">
+      <div class="logo"> <img src="ATTRIFY.jpg" height="30px" width="30 px"></div>
+        <img src="911295.png" height="30px" width="30px" >
+        <a1 id="p">Cart</a1>
+        <a2 id="q">My Orders</a2>
+        <button id="r" onclick="walletconnect( )">Connect_Wallet</button>
+        <p id="walletAddrText">NotConnected</p>
+        <button id="op" onclick="walletbalance( )">Get_Balance</button>
+        <a4 id="s">Sign In/Log In
+          <div class="form">
+            <form>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname"
+                     placeholder="Enter your first name"
+                     required>
+       
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname"
+                     placeholder="Enter your last name"
+                     required>
+                    <label for="id">Mail</label>
+                     <input type="text" id="id" name="mai;"
+                            placeholder="Enter Your Mail Id"
+                            required>
+       
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </a4>
+      </div>
+      <div class="nav"> 
+         <div class="abc">
+            <a  id="f"  >About Us</a> 
+             <a href="#" id="g">Home</a>  
+              <button id="h">Deals
+                <div class="drop">
+                <li><ul><a href="#">BUY 1 GET 1 Free</a></ul>
+                    <ul><a href="#">BANK OFFERS</a></ul>
+                    <ul><a href="#">UNDER 999!</a></ul>
+                </li></div>
+            </button> 
+              
+             <button id="i">Contact Us
+              <div class="drops">
+                <li><ul><a href="#">FACEBOOK</a></ul>
+                    <ul><a href="#">PHONE NO.</a></ul>
+                    <ul><a href="#">INSTAGRAM</a></ul>
+                </li></div>
+            </button> 
+        <input id="x">Search</input>
+      
+      </div>
+      
+      </div>
+    <marquee id="m"  Scrollamount="12">India's One Of The Finest Clothing Brand!!            India's First VR-Based Technology Store!! </marquee>
+   
+    <div class="up">
+      <div class="j"><img src="ATTRIFY_2.jpg"  hieght="300px"  width="300px">
+      </div>
+      <div class="p"><pre>                  
+                               About Us
+                                       Attrify,
+                                       the epitome of style and innovation in the world of fashion.
+                                       Our newly launched garments brand combines cutting-edge designs with unparalleled comfort, redefining contemporary fashion.
+                                       Explore a seamless shopping experience with our state-of-the-art VR technology-based store,
+                                       where you can virtually step into the world of Attrify from the comfort of your home.
+                                       Immerse yourself in a 360-degree view of our exquisite collections, making shopping not just a task but a delightful journey.
+                                       With a commitment to quality, trendsetting styles,and the futuristic touch of virtual reality,
+                                       Attrify stands as a beacon of sophistication, inviting you to embrace a new era of fashion.
+                                                                        
+                                                                                       *****  </pre>
+    
+    <div class="q"><pre>      Mens Wear     Women Wear   Todays Special</pre></div>
+    </div>
+    <div class="upper">  
+    <a href="index_2.html" id="y"> <img src="OIP.jpeg" height="300rex" width="200rex"> </a>
+    <a href="index_3.html" id="z"> <img src="GIRL.jpg" height="300rex" width="200rex"></a>
+    <a href="index_4.html" id="a"> <img src="dod.jpg" height="300rex" width="200rex"></a>
+    </div>
+    
+    <marquee id="e" Scrollamount="14">Please Give Us a Chance To ATTRIFY You!! Do Visit Our Store!! &#xf3c5;</marquee>
+    
+    
+  <div class="footer">
+  <a href="https://l.instagram.com/?u=https%3A%2F%2Fchat.whatsapp.com%2FIIXphtg5Eu6LDD1WY441zU&e=AT1LLgy7sls7gg1APvp9Rzu36cDSZlgUQS0ww2W4OeOcV501qX3ccaM8YimznDS4u9xupWnrxzS4SX7qq6_j7Urim4vI2jwC"><img src="gold.png" height="40px" width="30px"></a>
+  <pre>           MADE BY Attrify Stores!	&#xf004;
+           All COPYRIGHTs RESERVED 
+                                                                                        Address:             
+                                                                                        Shop 2A,3A Motwani Complex
+                                                                                        Shastri Puram Rd, near Green Valley
+                                                                                        Paschim Puri
+                                                                                        Agra, Uttar Pradesh 282007   <a href="https://l.instagram.com/?u=https%3A%2F%2Fmaps.app.goo.gl%2FynL8Z2MbVW3Dht2N7%3Fg_st%3Dic&e=AT3jST7RukYhCkb0O2ud5qzEoIGRcEgl9TxkVkoXpHy5qaJXO5EVhqQlcIyMiWEOS6OymLO0vmmz1i9nNH05pWG2Xz0KMWzU" id="cc">Location</a>
+                                                                                        
+</pre> 
+  <a href="https://www.instagram.com/attrifystores?igsh=MWo1MmpkZzRzNDVmNw%3D%3D&utm_source=qr"><img src="gold..1.png" height="40px" width="30px"></a>
+  </div>
+
+
+    
+    
+</body>
+</html>
